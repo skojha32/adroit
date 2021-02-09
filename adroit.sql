@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Feb 01, 2019 at 04:46 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.2.12
+-- Host: 127.0.0.1
+-- Generation Time: Feb 09, 2021 at 08:15 AM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 7.4.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -25,360 +24,51 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `bounty`
+-- Table structure for table `register`
 --
 
-CREATE TABLE `bounty` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `captainjack`
---
-
-CREATE TABLE `captainjack` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
+CREATE TABLE `register` (
+  `Sno` int(3) NOT NULL,
+  `collgeName` varchar(150) NOT NULL,
+  `teamName` varchar(150) NOT NULL,
+  `teamMember1` varchar(256) NOT NULL,
+  `Email` varchar(50) NOT NULL,
+  `Phone1` varchar(10) NOT NULL,
+  `Phone2` varchar(10) NOT NULL,
+  `teamMember2` varchar(256) NOT NULL,
+  `teamMember3` varchar(256) NOT NULL,
+  `teamMember4` varchar(256) NOT NULL,
+  `teamMember5` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Table structure for table `davy`
+-- Dumping data for table `register`
 --
 
-CREATE TABLE `davy` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL,
-  `name3` varchar(50) NOT NULL,
-  `email_id3` varchar(50) NOT NULL,
-  `number3` varchar(12) NOT NULL,
-  `name4` varchar(50) NOT NULL,
-  `email_id4` varchar(50) NOT NULL,
-  `number4` varchar(12) NOT NULL,
-  `name5` varchar(50) NOT NULL,
-  `email_id5` varchar(50) NOT NULL,
-  `number5` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `dead`
---
-
-CREATE TABLE `dead` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `dominator`
---
-
-CREATE TABLE `dominator` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `fortune`
---
-
-CREATE TABLE `fortune` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `gold`
---
-
-CREATE TABLE `gold` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `maverick`
---
-
-CREATE TABLE `maverick` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `plank`
---
-
-CREATE TABLE `plank` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `plank`
---
-
-INSERT INTO `plank` (`id`, `name`, `institution`, `email_id`, `number`, `name2`, `email_id2`, `number2`) VALUES
-(2, 'vgb', 'Kristu jayanti College', 'skojha32@gmail.com', '7899284215', 'vgb', 'a@gmail.com', '7899284215');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `quest`
---
-
-CREATE TABLE `quest` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `quest`
---
-
-INSERT INTO `quest` (`id`, `name`, `institution`, `email_id`, `number`, `name2`, `email_id2`, `number2`) VALUES
-(1, 'Sashi Kant Ojha', 'Kristu Jayanti College', 'skojha32@gmail.com', '7899284215', 'xavier', 'dshdvio@gmail.com', '7899284215');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `spot`
---
-
-CREATE TABLE `spot` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL,
-  `name2` varchar(50) NOT NULL,
-  `email_id2` varchar(50) NOT NULL,
-  `number2` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `travel`
---
-
-CREATE TABLE `travel` (
-  `id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `institution` varchar(50) NOT NULL,
-  `email_id` varchar(50) NOT NULL,
-  `number` varchar(12) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `register` (`Sno`, `collgeName`, `teamName`, `teamMember1`, `Email`, `Phone1`, `Phone2`, `teamMember2`, `teamMember3`, `teamMember4`, `teamMember5`) VALUES
+(1, 'Lucknow University', 'Alpha', 'Anish', 'abhi@gmail.com', '9544565656', '9544565656', 'Anuj', 'Abhilash', 'Anikrishna', 'Abheek'),
+(2, 'a', '', 'a', 'a@gmail.com', '8840999188', '8840999188', 'd', '', 'd', 'd'),
+(3, 'a', 'a', 'a', 'a@gmail.com', '8840999188', '8840999188', 'd', 'd', 'd', 'd');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `bounty`
+-- Indexes for table `register`
 --
-ALTER TABLE `bounty`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `captainjack`
---
-ALTER TABLE `captainjack`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `davy`
---
-ALTER TABLE `davy`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `dead`
---
-ALTER TABLE `dead`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `fortune`
---
-ALTER TABLE `fortune`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `gold`
---
-ALTER TABLE `gold`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `maverick`
---
-ALTER TABLE `maverick`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `plank`
---
-ALTER TABLE `plank`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `quest`
---
-ALTER TABLE `quest`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `spot`
---
-ALTER TABLE `spot`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `travel`
---
-ALTER TABLE `travel`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `register`
+  ADD PRIMARY KEY (`Sno`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT for table `bounty`
+-- AUTO_INCREMENT for table `register`
 --
-ALTER TABLE `bounty`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `captainjack`
---
-ALTER TABLE `captainjack`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `davy`
---
-ALTER TABLE `davy`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `dead`
---
-ALTER TABLE `dead`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `fortune`
---
-ALTER TABLE `fortune`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `gold`
---
-ALTER TABLE `gold`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `maverick`
---
-ALTER TABLE `maverick`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `plank`
---
-ALTER TABLE `plank`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `quest`
---
-ALTER TABLE `quest`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `spot`
---
-ALTER TABLE `spot`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `travel`
---
-ALTER TABLE `travel`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `register`
+  MODIFY `Sno` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
