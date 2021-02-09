@@ -33,68 +33,91 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
          <div class="mail" id="mail">
          <div class="container">
              <h3 class="w3l_head w3l_head1">Register </h3>
-             <p class="w3ls_head_para w3ls_head_para1">One event for a Team</p>
+             <p class="w3ls_head_para w3ls_head_para1"> Event for Hackerverse</p>
              <span class="input input--ichiro">
                              <input class="input__field input__field--ichiro" type="text" id="input-25" placeholder=" " name="institution" required="">
                              <label class="input__label input__label--ichiro" for="input-25">
-                                 <span class="input__label-content input__label-content--ichiro">Your Institution </span>
+                                 <span class="input__label-content input__label-content--ichiro" > College name </span>
                              </label>
                          </span>
              <div class="w3_mail_grids">
                  <form action="#" method="post">
                  <div class="col-md-6 w3_agile_mail_grid">
+                <!-- <span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="email" id="input-31" placeholder=" " name="email_id2" required="">
+							<label class="input__label input__label--ichiro" for="input-31">
+								<span class="input__label-content input__label-content--ichiro">Team Name</span>
+							</label>
+						</span>-->
+                        <span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="text" id="input-42" placeholder=" " name="teamname" required="">
+							<label class="input__label input__label--ichiro" for="input-42">
+								<span class="input__label-content input__label-content--ichiro">Team Name</span>
+							</label>
+                        </span>
                  <span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="text" id="input-26" placeholder=" " name="name" required="">
 							<label class="input__label input__label--ichiro" for="input-26">
-								<span class="input__label-content input__label-content--ichiro">Your Name</span>
+								<span class="input__label-content input__label-content--ichiro">(Team leader)Team member Name-1</span>
 							</label>
                         </span>
 						<span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="email" id="input-28" placeholder=" " name="email_id" required="">
 							<label class="input__label input__label--ichiro" for="input-28">
-								<span class="input__label-content input__label-content--ichiro">Your Email</span>
+								<span class="input__label-content input__label-content--ichiro">(Team leader) Email</span>
 							</label>
 						</span>
 						<span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="text" id="input-29" placeholder=" " required="" name="number">
 							<label class="input__label input__label--ichiro" for="input-29">
-								<span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
+								<span class="input__label-content input__label-content--ichiro">(Team leader) Phone Number</span>
+                                
 							</label>
 						</span>
 
+                       <!-- <span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="text" id="input-29" placeholder=" " required="" name="number">
+							<label class="input__label input__label--ichiro" for="input-29">
+                            <span class="input__label-content input__label-content--ichiro">(Team leader alternate phone)Your Phone Number</span>
+                                
+							</label>
+						</span>
+                       <span class="input__label-content input__label-content--ichiro">(Team leader alternate phone)Your Phone Number</span>-->
                  </div>
                      <div class="col-md-6 w3_agile_mail_grid">
-                     <span class="input input--ichiro">
+                     
+                        
+                        <span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="text" id="input-32" placeholder=" " required="" name="number2">
+							<label class="input__label input__label--ichiro" for="input-32">
+								<span class="input__label-content input__label-content--ichiro">(Team leader)Alternate Phone Number</span>
+							</label>
+						</span>
+                        <span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="text" id="input-30" placeholder=" " name="name2" required="">
 							<label class="input__label input__label--ichiro" for="input-30">
-								<span class="input__label-content input__label-content--ichiro">Your Name</span>
+								<span class="input__label-content input__label-content--ichiro">Team member Name-2</span>
 							</label>
                         </span>
-                        
-						<span class="input input--ichiro">
+						<!--<span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="email" id="input-31" placeholder=" " name="email_id2" required="">
 							<label class="input__label input__label--ichiro" for="input-31">
 								<span class="input__label-content input__label-content--ichiro">Your Email</span>
 							</label>
-						</span>
-						<span class="input input--ichiro">
-							<input class="input__field input__field--ichiro" type="text" id="input-32" placeholder=" " required="" name="number2">
-							<label class="input__label input__label--ichiro" for="input-32">
-								<span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
-							</label>
-						</span>
+						</span>-->
+						
  
                      </div>
                      
                      <div class="col-md-4 w3_agile_mail_grid">
                      <span class="input input--ichiro">
-							<input class="input__field input__field--ichiro" type="text" id="input-33" placeholder=" " name="name2" required="">
+							<input class="input__field input__field--ichiro" type="text" id="input-33" placeholder=" " name="name3" required="">
 							<label class="input__label input__label--ichiro" for="input-33">
-								<span class="input__label-content input__label-content--ichiro">Your Name</span>
+								<span class="input__label-content input__label-content--ichiro">Team member Name-3</span>
 							</label>
                         </span>
                         
-						<span class="input input--ichiro">
+					<!--	<span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="email" id="input-34" placeholder=" " name="email_id2" required="">
 							<label class="input__label input__label--ichiro" for="input-34">
 								<span class="input__label-content input__label-content--ichiro">Your Email</span>
@@ -105,18 +128,18 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 							<label class="input__label input__label--ichiro" for="input-35">
 								<span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
 							</label>
-						</span>
+						</span>-->
 
                      </div>
                      <div class="col-md-4 w3_agile_mail_grid">
                          <span class="input input--ichiro">
                              <input class="input__field input__field--ichiro" type="text" id="input-36" placeholder=" " name="name4" required="">
                              <label class="input__label input__label--ichiro" for="input-36">
-                                 <span class="input__label-content input__label-content--ichiro">Your Name</span>
+                                 <span class="input__label-content input__label-content--ichiro">Team member Name-4</span>
                              </label>
                          </span>
                          
-                         <span class="input input--ichiro">
+                        <!-- <span class="input input--ichiro">
                              <input class="input__field input__field--ichiro" type="email" id="input-37" placeholder=" " name="email_id4" required="">
                              <label class="input__label input__label--ichiro" for="input-37">
                                  <span class="input__label-content input__label-content--ichiro">Your Email</span>
@@ -127,18 +150,18 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                              <label class="input__label input__label--ichiro" for="input-38">
                                  <span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
                              </label>
-                         </span>
+                         </span>-->
  
                      </div>
                      <div class="col-md-4 w3_agile_mail_grid">
                          <span class="input input--ichiro">
                              <input class="input__field input__field--ichiro" type="text" id="input-39" placeholder=" " name="name5" required="">
                              <label class="input__label input__label--ichiro" for="input-39">
-                                 <span class="input__label-content input__label-content--ichiro">Your Name</span>
+                                 <span class="input__label-content input__label-content--ichiro">Team member Name-5</span>
                              </label>
                          </span>
                          
-                         <span class="input input--ichiro">
+                        <!-- <span class="input input--ichiro">
                              <input class="input__field input__field--ichiro" type="email" id="input-40" placeholder=" " required="" name="email_id5" >
                              <label class="input__label input__label--ichiro" for="input-40">
                                  <span class="input__label-content input__label-content--ichiro">Your Email</span>
@@ -149,7 +172,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                              <label class="input__label input__label--ichiro" for="input-41">
                                  <span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
                              </label>
-                         </span>
+                         </span>-->
  
                      </div>
                      <!-- <div class="col-md-6 w3_agile_mail_grid">
@@ -168,25 +191,28 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
         }
             if(isset($_POST["submit"]))
             {
-                $table = $_POST["table"];
+                //$table = $_POST["table"];
                 $id;
-                $name=$_POST['name'];
+                
                 $institution=$_POST['institution'];
+                $teamName=$_POST['teamname'];
+                $name1=$_POST['name'];
                 $email_id=$_POST['email_id'];
-                $number=$_POST['number'];
-                $name2=$_POST['name2'];
-                $email_id2=$_POST['email_id2'];
+                $number1=$_POST['number'];
                 $number2=$_POST['number2'];
+                $name2=$_POST['name2'];
+                
+                
                 $name3=$_POST['name3'];
-                $email_id3=$_POST['email_id3'];
-                $number3=$_POST['number3'];
+               // $email_id3=$_POST['email_id3'];
+                //$number3=$_POST['number3'];
                 $name4=$_POST['name4'];
-                $email_id4=$_POST['email_id4'];
-                $number4=$_POST['number4'];
+                //$email_id4=$_POST['email_id4'];
+                //$number4=$_POST['number4'];
                 $name5=$_POST['name5'];
-                $email_id5=$_POST['email_id5'];
-                $number5=$_POST['number5'];
-                $query=mysqli_query($con,"Insert into $table (name,institution,email_id,number,name2,email_id2,number2,name3,email_id3,number3,name4,email_id4,number4,name5,email_id5,number5) values('$name','$institution','$email_id','$number','$name2','$email_id2','$number2','$name3','$email_id3','$number3','$name4','$email_id4','$number4','$name5','$email_id5','$number5')");
+                //$email_id5=$_POST['email_id5'];
+                //$number5=$_POST['number5'];
+                $query=mysqli_query($con,"Insert into `adroit`.`register` ( `collgeName`, `teamName`, `teamMember1`, `Email`, `Phone1`, `Phone2`, `teamMember2`, `teamMember3`, `teamMember4`, `teamMember5`) values('$institution','$teamName','$name1','$email_id','$number1','$number2','$name2','$name3','$name4','$name5')");
              
                 if($query)
                 {
@@ -195,9 +221,9 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
              }
              else
              {
-				echo "<script type = 'text/javascript'>alert('Registration Not Successful!! Please try again!')</script>";
-				echo "<script type='text/javascript'>window.location.assign('index.php')</script>";
-                   
+				//echo "<script type = 'text/javascript'>alert('Registration Not Successful!! Please try again!')</script>";
+				//echo "<script type='text/javascript'>window.location.assign('index.php')</script>";
+                 echo "error: $query <br> $con->error";  
              }
             }
 
